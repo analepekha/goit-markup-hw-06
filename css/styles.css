@@ -674,27 +674,28 @@ outline: transparent;
 }
 
 .subscribe-btn{
-display: inline-block;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.06em;
-text-align: left;
-
-padding-right: 28px;
-padding-left: 29px;
-padding-top: 10px;
-padding-bottom: 10px;;
-width: 200px;
-
-background: var(--accent-color);
-color: var(--primary-text-darktheme);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border: none;
-border-radius: 4px;
-cursor: pointer;
-
-transition: background-color var(--transition);
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: left;
+  
+  padding-right: 28px;
+  padding-left: 29px;
+  padding-top: 10px;
+  padding-bottom: 10px;;
+  width: 200px;
+  
+  background: var(--accent-color);
+  color: var(--primary-text-darktheme);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+  transition: background-color var(--transition);
 }
 
 .subscribe-btn:hover,
@@ -711,7 +712,6 @@ transition: background-color var(--transition);
   height: 24px;
 
   fill: var(--primary-light-bg);
-  opacity: 0.2;
   cursor: pointer;
 }
 
